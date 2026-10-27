@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 10 215 205" width="3840" height="3662">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0.2" x2="1" y2="0.8">
+      <stop offset="0" stop-color="#a21cf5"/>
+      <stop offset="0.55" stop-color="#9a28f4"/>
+      <stop offset="1" stop-color="#3f86f7"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a45cf0"/>
+      <stop offset="0.35" stop-color="#7f93ee"/>
+      <stop offset="0.7" stop-color="#4fd08f"/>
+      <stop offset="1" stop-color="#47f26c"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="0.1">
+      <stop offset="0" stop-color="#ff8f1f"/>
+      <stop offset="0.5" stop-color="#ff3320"/>
+      <stop offset="1" stop-color="#d9307f"/>
+    </linearGradient>
+    <filter id="soft" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur stdDeviation="0.35"/>
+    </filter>
+  </defs>
+  <g filter="url(#soft)">
+    <path fill="url(#g1)" d="M47,70 C47,40 80,25 115,25 C145,25 162,32 160,50 C158,70 130,98 100,104 C70,108 47,95 47,70 Z"/>
+    <path fill="url(#g2)" d="M172,78 C190,78 215,115 215,150 C215,175 198,192 176,192 C150,192 128,172 128,146 C128,110 152,78 172,78 Z"/>
+    <path fill="url(#g3)" d="M36,165 C36,140 60,122 85,122 C102,122 112,124 111,134 C108,150 92,185 70,195 C50,203 36,188 36,165 Z"/>
+  </g>
+</svg>
